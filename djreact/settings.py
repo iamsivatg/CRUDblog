@@ -34,11 +34,10 @@ INSTALLED_APPS = [
     'articles',
     'corsheaders',
     'rest_framework',
-    'rest_framework.authtoken',
-    
+    'rest_framework.authtoken',    
 ]
 
-SITE_ID = 1
+
 
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
